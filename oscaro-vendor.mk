@@ -853,6 +853,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libVideoEnhance.so:$(TARGET_COPY_OUT_ODM)/lib64/libVideoEnhance.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libWaterMark.so:$(TARGET_COPY_OUT_ODM)/lib64/libWaterMark.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libWaterMode.so:$(TARGET_COPY_OUT_ODM)/lib64/libWaterMode.so \
+    vendor/oneplus/oscaro/proprietary/odm/lib64/libYTCommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libYTCommon.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_rectify.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libaisd.so:$(TARGET_COPY_OUT_ODM)/lib64/libaisd.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libaiseg.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiseg.so \
@@ -875,10 +876,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_hdr_couple_api_V2.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api_V2.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_denoise_api.so \
+    vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_hdr_denoise_api_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_denoise_api_v4.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdrplus_hvx_stub.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple_V2.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple_V2.so \
+    vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_high_dynamic_range_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_v4.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_lensstaindetection.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_long_exposure_capture.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_long_exposure_capture.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_long_exposure_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_long_exposure_preview.so \
@@ -891,6 +894,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_scbokeh_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_scbokeh_image.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_scbokeh_video.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise.so \
+    vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_smart_denoise_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise_v4.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_supernight.so \
     vendor/oneplus/oscaro/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
