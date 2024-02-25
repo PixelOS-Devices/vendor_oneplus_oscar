@@ -18,13 +18,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/bt/apnv11.bin:$(TARGET_COPY_OUT_ODM)/etc/bt/apnv11.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/CameraHWConfiguration.config \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/aicolor/duallut_portrait.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_portrait.bmp \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/anc/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/anc/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model_post \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/arcsoft_distortionParams.bin:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/arcsoft_distortionParams.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
@@ -32,33 +30,21 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/capture_neonportrait_params.json \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/camera_unit_config \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/gc02m:$(TARGET_COPY_OUT_ODM)/etc/camera/config/gc02m \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/gc02m:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/gc02m \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/oplus_camera_aps_config \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/oplus_camera_config \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/config/ov08d10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov08d10 \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov64b \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/ov64b \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/sy_imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/sy_imx471 \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/sy_imx471:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/sy_imx471 \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/dualcal_golden.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/fb_default \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001.png \
@@ -474,7 +460,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/fwk_config.json \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
@@ -557,7 +542,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param9.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param9.ini \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/photoSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/photoSet.ini \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/platformSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/platformSet.ini \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/pf/PerfectColorSet/normal/platformSet.ini:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/pf/PerfectColorSet/normal/platformSet.ini \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/sceneList.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/sceneList.txt \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/ColorLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/ColorLut \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/CurveLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/CurveLut \
@@ -621,7 +605,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param9.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param9.ini \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/photoSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/photoSet.ini \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/sceneList.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/sceneList.txt \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.frag \
@@ -645,7 +628,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/PreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertFilterBinary.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/PreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertSurBinary.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/pfb_bin/SkinCalcHue.bin:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/pfb_bin/SkinCalcHue.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.frag \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.vert \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.bin \
@@ -655,7 +637,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.frag \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.vert \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/pfb_bin/SkinHueUnify.bin:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/pfb_bin/SkinHueUnify.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.frag \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.vert \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin \
@@ -667,9 +648,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/pfb_bin/snapEyeYUV2RGBBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapEyeYUV2RGBBinary.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/selfbokehParam.json \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/selfbokehmodel.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/singleblur/doubleloss_large.model:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/doubleloss_large.model \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
@@ -762,19 +741,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/nfc/nfc_fw_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_fw_ref \
     vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/alsps.json \
     vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_alsps.json \
-    vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_bma4_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_bma4_0.json \
     vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_bmi3x0_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_bmi3x0_0.json \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/sensor/config/holi_bmi3x0_0.json:$(TARGET_COPY_OUT_ODM)/oscarr/etc/sensor/config/holi_bmi3x0_0.json \
-    vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_icm4x607.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_icm4x607.json \
     vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_icm4x6xx.json \
     vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_mxg4300_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_mxg4300_0.json \
-    vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_qrd_bma4_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_bma4_0.json \
-    vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_bmi26x_0.json \
     vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_qrd_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_mmc56x3x.json \
-    vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_qrd_sc7a20_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_sc7a20_0.json \
-    vendor/oneplus/oscar/proprietary/odm/etc/sensor/config/holi_sc7a20_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_sc7a20_0.json \
     vendor/oneplus/oscar/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/oscarr/etc/sensor/sensor_config.json \
     vendor/oneplus/oscar/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
     vendor/oneplus/oscar/proprietary/odm/lib/libVDBayerHDR.so:$(TARGET_COPY_OUT_ODM)/lib/libVDBayerHDR.so \
@@ -790,7 +761,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so \
-    vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so \
@@ -813,7 +783,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libvdblurless_4.6.10J_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_4.6.10J_skel.so \
-    vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libvdblurless_4.6.10Y_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_4.6.10Y_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libvdblurless_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
@@ -821,26 +790,18 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensor.gc02m1.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc02m1.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensor.gc02m1b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc02m1b.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensor.ov08d10.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov08d10.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensor.ov64b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov64b.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensor.sy_imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.sy_imx471.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1b.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov08d10.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/lib64/camera/com.qti.sensormodule.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/oscarr/lib64/camera/com.qti.sensormodule.ov08d10.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.ov64b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov64b.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/lib64/camera/com.qti.sensormodule.ov64b.bin:$(TARGET_COPY_OUT_ODM)/oscarr/lib64/camera/com.qti.sensormodule.ov64b.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.s5kjn1.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.sy_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sy_imx471.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/lib64/camera/com.qti.sensormodule.sy_imx471.bin:$(TARGET_COPY_OUT_ODM)/oscarr/lib64/camera/com.qti.sensormodule.sy_imx471.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.gc02m1.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/oscarr/lib64/camera/com.qti.tuned.gc02m1.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.tuned.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.gc02m1b.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.tuned.imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.imx471.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/lib64/camera/com.qti.tuned.imx471.bin:$(TARGET_COPY_OUT_ODM)/oscarr/lib64/camera/com.qti.tuned.imx471.bin \
-    vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.tuned.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.ov08d10.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.tuned.ov64b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.ov64b.bin \
-    vendor/oneplus/oscar/proprietary/odm/oscarr/lib64/camera/com.qti.tuned.ov64b.bin:$(TARGET_COPY_OUT_ODM)/oscarr/lib64/camera/com.qti.tuned.ov64b.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreview.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
