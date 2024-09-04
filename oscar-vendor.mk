@@ -704,7 +704,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
     vendor/oneplus/oscar/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
     vendor/oneplus/oscar/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
-    vendor/oneplus/oscar/proprietary/vendor/lib/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn557_fw.so \
+    vendor/oneplus/oscar/proprietary/vendor/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so \
